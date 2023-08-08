@@ -33,3 +33,7 @@ body {
     /* classe seletora e passar o mouse sobre */
     background-color: #ffffff;
   }
+
+  .menu a.amarelo {
+    background-color: yellow;
+  }
