@@ -1,9 +1,10 @@
-import $ from 'jquery';
+import domready from 'domready';
 
-const itens = document.querySelectorAll('.menu li');
+domready(function(){
+    const itens = document.querySelectorAll('.menu li');
+    itens[1].classList.add('amarelo');
 
-itens[1].classList.add('amarelo');
 
-
-
-console.log("Hello World! 7");
+    console.log("Hello World! 7");
+    }
+);
