@@ -1,10 +1,11 @@
-<header class="cabecalho container"> <!-- Meu cabeçalho -->
+<header class="grid-container"> <!-- Meu cabeçalho -->
         <!-- F1 -->
         <div class="logotipo">
             <a href="index.php"><img src="assets/images/logo.webp"></a>
         </div>
 
         <!-- F2 -->
+
         <nav> <!-- Começo do Menu -->
             <ul class="menu"> <!-- Lista de links -->
                 <li><a href="index.php" class="amarelo">Inicial</a></li>
