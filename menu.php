@@ -1,4 +1,5 @@
-<header class="grid-container"> <!-- Meu cabeçalho -->
+<div class="fundo-gradiente">
+<header class="grid-container container cabecalho"> <!-- Meu cabeçalho -->
         <!-- F1 -->
         <div class="logotipo">
             <a href="index.php"><img src="assets/images/logo.webp"></a>
@@ -19,3 +20,4 @@
         <!-- F3 -->
         <div class="redes">Redes Sociais</div>
     </header>
+</div>

@@ -29,7 +29,9 @@
 
     @for $i from 1 through 12 {
         .col-#{$i} {
-            width: calc(100% / #{12 / $i});
+            width: calc(100% / #{calc(12 / $i)});
+            border: 1px dashed red;
+            box-sizing: border-box;
 
             @media (max-width: 999px) {
                 width: 100%;
