@@ -2,9 +2,7 @@ body {
     font-family: sans-serif;
 }
 
-.container,
-main,
-footer {
+.container{
     max-width: $larguracontainer; /* defino uma largura máxima */
     margin: 0 auto; /* centralizo elementos block */
 }

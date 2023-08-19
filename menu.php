@@ -1,5 +1,5 @@
 <div class="fundo-gradiente">
-<header class="grid-container container cabecalho"> <!-- Meu cabeçalho -->
+    <header class="container cabecalho"> <!-- Meu cabeçalho -->
         <!-- F1 -->
         <div class="logotipo">
             <a href="index.php"><img src="assets/images/logo.webp"></a>

@@ -1,12 +1,14 @@
 .fundo-gradiente{
     background: linear-gradient(to right, red, yellow);
+    min-height: 96px;
+    display: flex;
 }
 
 .cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    width: 100%;
     .logotipo img {
         max-width: 100px;
         height: auto;

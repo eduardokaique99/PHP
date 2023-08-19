@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.cor-terciaria {
+  color: #f19000;
+}
+
 .grid-container {
   max-width: 1400px;
   margin: 0 auto;
@@ -150,12 +154,15 @@
 
 .fundo-gradiente {
   background: linear-gradient(to right, red, yellow);
+  min-height: 96px;
+  display: flex;
 }
 
 .cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 .cabecalho .logotipo img {
   max-width: 100px;
@@ -184,13 +191,17 @@
   background-color: yellow;
 }
 
+footer {
+  background-color: #1453bd;
+  padding: 60px 0;
+  color: #FFF;
+}
+
 body {
   font-family: sans-serif;
 }
 
-.container,
-main,
-footer {
+.container {
   max-width: 1400px; /* defino uma largura máxima */
   margin: 0 auto; /* centralizo elementos block */
 }
