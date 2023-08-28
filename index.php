@@ -28,20 +28,23 @@ include __DIR__ . '/header.php';
         </button>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
+    <div class="container"> <!-- Container que abraça  -->
+        <div class="row"> <!-- Linha -->
+            <div class="col-md-3 mx-auto"> <!-- Coluna de 50% -->
                 <h1>Bem vindos ao Meu Site Feliz</h1>
                 <p>Seja bem vindo ao melhor site da américa!</p>
             </div>
-            <div class="col-6">
+            <div class="col-md-3  mx-auto">
+                <p>Coluna da direita</p>
+            </div>
+            <div class="col-md-3  mx-auto">
+                <p>Coluna da direita</p>
+            </div>
+            <div class="col-md-3  mx-auto">
                 <p>Coluna da direita</p>
             </div>
         </div>
     </div>
-
-
-
 
 
 

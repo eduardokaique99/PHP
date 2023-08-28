@@ -1,10 +1,10 @@
     <!-- Rodapé do site -->
-    <footer>
-
+    <footer class="py-5">
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <h4 class="h4 cor-terciaria "><strong>Coluna 1</strong></h4>
+                <p>Aqui é meu rodapé</p>
                 <ul>
                     <li>Curso 1</li>
                     <li>Curso 2</li>
@@ -12,7 +12,7 @@
                 </ul>
             </div>
             <div class="col-md-3 col-sm-6">
-                <h4>Coluna 2</h4>
+                <h4 class="mb-5">Coluna 2</h4>
                 <p>Aqui é meu rodapé</p>
             </div>
             <div class="col-md-3 col-sm-6">
