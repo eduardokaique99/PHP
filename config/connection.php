@@ -5,6 +5,8 @@ $username = 'senac';
 $passowrd = 'senac';
 $database = 'aula';
 
+$image_folder = 'assets/images/';
+
 // criando conexão com o banco de dados 
 $pdo = new PDO("mysql:host=$host;dbname=$database", $username, $passowrd);
 // realizo um select para testar a conexão
