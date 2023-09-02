@@ -1,5 +1,5 @@
 <?php
-
+ini_set('display_errors', 1);
 if (isset($titulo)) {
 } else {
     $titulo = "Título padrão";
