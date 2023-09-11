@@ -1,5 +1,5 @@
 <?php
-
+ini_set('display_errors', 1);
 if (isset($titulo)) {
 } else {
     $titulo = "Título padrão";
@@ -16,8 +16,8 @@ if (isset($titulo)) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="dist/bundle.js"></script>
 </head>
 
 <body>
