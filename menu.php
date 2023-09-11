@@ -6,7 +6,6 @@
                 <a href="index.php"><img src="assets/images/logo.webp"></a>
             </div>
         </div>
-
         <!-- F2 -->
         <div class="col-6">
             <nav> <!-- Começo do Menu -->
@@ -14,8 +13,9 @@
                     <li><a href="index.php" class="amarelo">Inicial</a></li>
                     <li><a href="sobre.php">Sobre</a></li>
                     <li><a href="portfolio.php">Portifólio</a></li>
-                    <li><a href="noticias.php">Noticias</a></li>
+                    <li><a href="noticias.php">Notícias</a></li>
                     <li><a href="servicos.php">Serviços</a></li>
+                    <li><a href="exercicio.php">Exercício</a></li>
                     <li><a href="contato.php">Contato</a></li>
                 </ul>
             </nav>
